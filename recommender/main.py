@@ -11,7 +11,7 @@ app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 # 🗄️ CONNECT TO MONGODB (Paste your string inside the quotes!)
-MONGO_URI = "mongodb+srv://rawansabha2004_db_user:4OJU6M3Ez3V7eKss@shelfscanner.fwsgivp.mongodb.net/?appName=ShelfScanner"
+MONGO_URI = "mongodb+srv://rawansabha2004_db_user:YOURPASSWORD@shelfscanner.fwsgivp.mongodb.net/?appName=ShelfScanner"
 client = MongoClient(MONGO_URI)
 db = client.test # This uses the default 'test' database
 books_collection = db.books
