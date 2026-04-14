@@ -3,7 +3,7 @@ A full-stack application that captures bookshelf photos and uses AI to recommend
 
 ---
 
-## 🚀 How to Start (Morning Routine)
+##  How to Start (Morning Routine)
 If you just turned on your laptop, follow these steps:
 
 ### 1. Start the Backend (Server)
